@@ -134,7 +134,7 @@ public class MenuAddActivity extends AppCompatActivity {
 
 
         myRef = FirebaseDatabase.getInstance().getReference();
-        uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        uid ="slwVsecqtTO3RDjzPxBWrFekbEd2";
         tempFile = getTempFile();
 
         binding.menuExplain.setHorizontallyScrolling(false);
